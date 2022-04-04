@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" defer></script>
-    <title>Kyokushin Karate Club de Goderville Test</title>
+    <title>Kyokushin Karate Club de Goderville</title>
 </head>
 <body>
 <header>
 
-    <div id="accueil" class="container-fluid">
+    
         <div class="row justify-content-center">
             <nav id="myNavbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
                 <div class="container-fluid">
@@ -33,7 +33,11 @@
                     </div>
                 </div>
                 </div>
-            </nav>     
+            </nav>
+  
+        </div> 
+        <!--fin de la navbar-->
+        <div id="accueil" class="container-fluid">        
 <!--                 
             <div class="col-2 col-lg-2">
                 <img id="logo" src="assets/img/logos-fini-original.png"  alt="logo du club">
@@ -89,27 +93,29 @@
                             <img  id="drapeau-langue" src="assets/img/drapeau-langue.png"  alt="drapeau langue">
                     </div>
             </div> -->
-        </div>
+       
        
 
 
 
-    </div><!--fin container fluid-->
+        </div><!--fin container fluid-->
 
 
 </header>        
     </div><!--fin container-->
 
 <!--ACTUALITES-->
-<div class="container">
+<div class="background-color-black">
     <section id="actualites">
-        <div class="background-color-black">
-            <div class="row">
-                <div class="col-lg-4">
-
-                </div>
-                <div class="col-lg-4">
+        <div class="container-fluid">
+    
+        
+            <div class="row ">
+                
+                <div class="col-lg-6 mx-auto">
                     <h2>En ce moment...</h2>
+                   
+            
                     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -125,8 +131,8 @@
         
                         <div class="carousel-item active">
                             <div class="row mb-3">
-                            <img src="assets/img/distinction actu.jpg" class="d-block rounded image-fluid mb-1" alt="Francois_VALEE">
-                            <div class="bg-dark text-white mb-2">
+                            <img src="assets/img/distinction actu.jpg" max-width="300px"; class="d-block w-60" alt="Francois_VALEE">
+                            <div class="bg-dark text-white mb-2 text-center">
                                 <p>François vallee</p>
                                 <p>Diplôme d'instructeur fédéral.
                                 BEES 1er Degré Option Karaté & Arts Martiaux Affinitaires.
@@ -140,7 +146,7 @@
         
                         <div class="carousel-item">
                             <div class="row mb-3">
-                            <img src="assets/img/sante-actu.jpg" class="d-block rounded " alt="Christelle_PIERROZ">
+                            <img src="assets/img/sante-actu.jpg" max-height="100px" class="d-block w-10" alt="Christelle_PIERROZ">
                             <div class="p-3 mb-2 bg-dark text-white text-center py-2">
                                 <p>Christelle PIERROZ</p>
                                 <p>Secrétaire du club.
@@ -155,7 +161,7 @@
         
                         <div class="carousel-item">
                             <div class="row mb-3">
-                            <img src="assets/img/stage karate.jpg" class="d-block rounded " alt="Marc_LEPAGE">
+                            <img src="assets/img/stage karate.jpg" class="d-block w-80" alt="Marc_LEPAGE">
                             <div class="p-3 mb-2 bg-dark text-white text-center  py-2">
                                 <p>Marc LEPAGE</p>
                                 
@@ -178,91 +184,72 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                         </button>
-                    </div> <!--caroussel-->
-        
-                
+                    </div> 
                 </div> <!--col caroussel-->
-                <div class="col-lg-4">
-                </div>
             </div> <!--fin de la première row-->
-
-            <div class="row">
-                <div class="col-lg-4">
-                </div>
-                <div class="col-lg-4">
-            <div id="form-email">
-                <form>
-                    <h3>On reste en contact?</h3>
-                    <div id="newsletter" class="mb-3">
-                    <label for="InputEmail" class="form-label">Alors, on attend ton adresse-email...</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
-                    <div id="div-button">
-                    <button id="button-newsletter" type="submit" class="btn btn-primary">Envoyer</button>
-                    </div>
-                </form>
-            </div><!--fin de la deuxième row-->
-            
         </div>
-    </div>
-
-</div>   
-
+    </div>   
 </section>
 
 <!--PRESENTATION ENTREPRISE--> 
-<section id="presentation-entreprise"></section>
-         <div class="background-color-red">
-             <div class="container-fluid">
-            <div class="row m-0 p-0">
-                <div class="col">
-                    <h2 class="color-white">Il était une fois...</h2>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-col-sm-4">
-                    <img id="photo-dojo" src="assets/img/Présentation dojo.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="col-lg-1 col-sm-0">
 
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-1">
-
-                </div>
-                <div class="col-lg-10">
-                    <p>
-                        Le kyokushin karaté club de GODERVILLE a été crée en 1994, par Roger VICAIRE et François VALLEE, au début le club n’avait que des cours adultes. C’est en 1998 que la section enfants verra le jour, elle aura pour effet de doubler les effectifs du club,à partir de ce moment le club ne cessera de grandir, pour atteindre en 2002 son apogée avec 94 adhérents, aujourd’hui le club compte environ 80 licenciés
-                    </p>
-                </div>
-                <div class="col-lg-1">
-
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-lg-2 col-sm-2">
-
-                </div>
-                <div class="col-lg-1 col-sm-1"> 
-                    <img id="kyokushinkai-img" class="img-fluid" src="assets/img/Kyokushinkai.svg.png"  alt="...">
-                </div>
-                <div class="col-lg-8 col-sm-8">
-                    <p>Le Kyokushinkai a été créé part Maître Masutatsu Oyama qui a suivi l'enseignement des plus grands parmi lesquels Ô Sensei Funakoshi Gichin. Le style Japonais (Gojû Ryu et Shotokan) lui inspire les techniques de poing, le travail respiratoire, les mouvements linéaires ; les formes circulaires viennent du Taikiken de Maître Kenichi Sawai, mais il a aussi puisé dans les arts martiaux Chinois et Coréens anciens avant de faire sa propre synthèse basée sur ses recherches et sensations personnelles.
-                    </p>
-                </div>
-                <div class="col-lg-1">
-
-                </div>
+<div class="background-color-red">
+    <div class="container-fluid">
+    
+        <section id="presentation-entreprise">
                 
-            </div>
-        </div>
-    </div>
+                    
+                    <div class="row m-0 p-0">
+                        <div class="col">
+                            <h2 class="color-white">Il était une fois...</h2>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-col-sm-4">
+                            <img id="photo-dojo" src="assets/img/presentation-dojo.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col-lg-1 col-sm-0">
 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-1">
+
+                        </div>
+                        <div class="col-lg-10">
+                            <p>
+                                Le kyokushin karaté club de GODERVILLE a été crée en 1994, par Roger VICAIRE et François VALLEE, au début le club n’avait que des cours adultes. C’est en 1998 que la section enfants verra le jour, elle aura pour effet de doubler les effectifs du club,à partir de ce moment le club ne cessera de grandir, pour atteindre en 2002 son apogée avec 94 adhérents, aujourd’hui le club compte environ 80 licenciés
+                            </p>
+                        </div>
+                        <div class="col-lg-1">
+
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-lg-2 col-sm-2">
+
+                        </div>
+                        <div class="col-lg-1 col-sm-1"> 
+                            <img id="kyokushinkai-img" class="img-fluid" src="assets/img/Kyokushinkai.svg.png"  alt="...">
+                        </div>
+                        <div class="col-lg-8 col-sm-8">
+                            <p>Le Kyokushinkai a été créé part Maître Masutatsu Oyama qui a suivi l'enseignement des plus grands parmi lesquels Ô Sensei Funakoshi Gichin. Le style Japonais (Gojû Ryu et Shotokan) lui inspire les techniques de poing, le travail respiratoire, les mouvements linéaires ; les formes circulaires viennent du Taikiken de Maître Kenichi Sawai, mais il a aussi puisé dans les arts martiaux Chinois et Coréens anciens avant de faire sa propre synthèse basée sur ses recherches et sensations personnelles.
+                            </p>
+                        </div>
+                        <div class="col-lg-1">
+
+                        </div>
+                        
+                    </div>
+              
+           
+        </section>
+    </div>
+</div>
 <!--COURS-->
-<div class="background-color-white">
+
     <div class="container-fluid background-color-white"> 
-        <div class="container-fluid">
+        
             <div class="row justify-content-center m-0">
                 <h2 class="color-red">
                     Venez découvrir nos différents cours!
@@ -330,119 +317,76 @@
 
     </div>fin container cours-->
 
-</div>
 
 
 <!--TARIFS-->
-<section>
-    <div class="background-color-black">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12 color-red">
-                    <h2 class="color-white">Quand on aime, on ne compte pas...</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-fluid" id="tarif" src="assets/img/tarif.png"  alt="...">
-                </div>
-            </div>  
+<div class="background-color-black">
+    <div class="container-fluid">
+            <section>
             
-           
-        </div>
-       
+                
+                    <div class="row">
+                        <div class="col-lg-12 color-red">
+                            <h2 class="color-white">Quand on aime, on ne compte pas...</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img class="img-fluid" id="tarif" src="assets/img/tarif.png"  alt="...">
+                        </div>
+                    </div>  
+                    
             
-    
+                    
+        
+            </section>
     </div>
-</section>
+</div>
 <!--PHOTOS ET VIDEOS-->
 <section>
     <div class="background-color-red">
-        <div class="row align-items-center">
-            
-            <div class="col">
-                <h2 class="color-white">
-                    Mais où est...
-                </h2>
+        <div class="container-fluid">
+            <div class="row align-items-center text-center">
+                
+                <div class="col">
+                    <h2 class="color-white">
+                        Mais où est...
+                    </h2>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                
+                <div class="col-lg-8 mx-auto">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="assets/img/francois-vallee-groupe.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/img/stage karate.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/img/distinction actu.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
             </div>
         </div>
-
-        <div class="row align-items-center">
-            <div class="col-lg-4"></div>
-            <div class="col-lg-4">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-
-
-
-                <div class="carousel-item active">
-                    <div class="row mb-3">
-                    <img src="assets/img/distinction actu.jpg" class="d-block rounded image-fluid mb-1" alt="Francois_VALEE">
-                    <div class="bg-dark text-white mb-2">
-                        <p>François vallee</p>
-                        <p>Diplôme d'instructeur fédéral.
-                        BEES 1er Degré Option Karaté & Arts Martiaux Affinitaires.
-                        Professeur DEJEPS Niv 3 Karaté spécialité perfectionnement sportif.
-                        CN 5 ème Dan F.F.K.A.M.A.</p>
-                    </div>
-                    </div>
-                </div>
-
-
-
-                <div class="carousel-item">
-                    <div class="row mb-3">
-                    <img src="assets/img/sante-actu.jpg" class="d-block rounded " alt="Christelle_PIERROZ">
-                    <div class="p-3 mb-2 bg-dark text-white text-center py-2">
-                        <p>Christelle PIERROZ</p>
-                        <p>Secrétaire du club.
-                        Diplôme d'instructeur fédéral.
-                        CN 2 ème Dan F.F.K.A.M.A.
-                        Formation " Sport après cancer"
-                        Juge National.</p>
-                    </div>
-                    </div>
-                </div>
-
-
-                <div class="carousel-item">
-                    <div class="row mb-3">
-                    <img src="assets/img/stage karate.jpg" class="d-block rounded " alt="Marc_LEPAGE">
-                    <div class="p-3 mb-2 bg-dark text-white text-center  py-2">
-                        <p>Marc LEPAGE</p>
-                        
-                        <p>Vice-Président.
-                        Diplôme d'instructeur fédéral.
-                        CN 3 ème Dan F.F.K.A.M.A.
-                        Resp Section Body Karaté
-                        Juge Européen.</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-                </button>
-            </div> <!--caroussel-->
-            </div>
-            <div class="col-lg-4"></div>
-        </div>
-
     </div>
 </section>
 <!--BOUTIQUE-->
@@ -466,8 +410,9 @@
     </div>
 </section>
 <!--CONTACT-->
+<div class="container-fluid"></div>
 <section id="contact">
-    <div class="container-fluid">
+    
         <div class="background-color-black">
             <div class="row">
                 
@@ -493,14 +438,38 @@
                     <p>06.19.91.20.33</p>     
                 </div>
             </div>
+
+           
+        </div>
+
+        <div  id="newsletter" class="background-color-footer">
+             <div class="row text-center" >
+                <div class="col-lg-4">
+                </div>
+                <div class="col-lg-4">
+            <div id="form-email">
+                <form>
+                    <h2>Newsletter</h2>
+                    <h3>On reste en contact?</h3>
+                    <div id="newsletter" class="mb-3">
+                    <label for="InputEmail" class="form-label">Alors, on attend ton adresse-email...</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div id="div-button">
+                    <button id="button-newsletter" type="submit" class="btn btn-primary">Envoyer</button>
+                    </div>
+                </form>
+            </div><!--fin de la deuxième row-->
         </div>
     </div>
 </section>
 
 
+
 <!--FOOTER-->
-<footer class="background-color-footer">
-    <div class="container-fluid">
+<div class="container-fluid">
+    <footer class="">
+    
         <div class="row justify-content-center text-center m-0">
             <div class="col-sm-4">
                 <h2>
@@ -524,9 +493,9 @@
                 <a id="mentions-legal" href="#">Mentions légales</a>
             </div>
         </div>
+    </footer>
 </div>
 
-</footer>
 
 </body>
 </html>

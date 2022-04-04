@@ -1,0 +1,268 @@
+/*GENERAL*/
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+@font-face {
+    font-family: "Karate";
+    src: url("/assets/fonts/Karate.ttf");
+}
+
+.background-color-black{
+    background-color: black;
+
+    height:780px;
+}
+
+.background-color-red{
+    background-color:#E30016;
+
+    height:780px;  
+}
+
+.background-color-white{
+    background-color:white;
+    height:780px;  
+    border: 1px solid black;
+}
+
+.background-color-footer{
+    background-color:#E30016;
+    
+    height:200px;  
+}
+
+.color-red{
+    color:#E30016;
+}
+
+.color-white{
+    color:white;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.divider{
+    width:100px;
+    height:2px;
+    background-color: #d82c2e;
+    margin: 0 auto 20px;
+}
+
+.divider.white {
+    background-color: white;
+
+}
+/* NAVBAR */
+.navbar {
+    background-color:#d82c2e;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+.navbar-nav{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-link {
+    color:white !important;
+    margin: 0 6px;
+}
+
+.nav-link.active,
+.nav-link:hover{
+    background-color: white;
+    color:#d82c2e !important;
+}
+
+/*HEADER*/
+
+.container{
+    height:780px;
+}
+
+
+#logo{
+    width:150px;
+    border:1px;
+    text-align: center;
+
+}
+
+#drapeau-langue{
+    width:42px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+h1{
+    font-family: "Karate", serif, sans-serif;
+    color:#E30016;
+   /* margin-top: 20px;
+    text-align: left;
+*/
+    
+}
+
+#video{
+   display: flex;
+   justify-content: center;
+}
+
+.myNavPad {
+    padding-left: 5rem;
+}
+
+
+/*HEADER*/
+
+
+
+h2{
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+#carousel{
+height:600px;
+width:600px;
+margin: 0 auto;
+}
+
+/*ACTUS*/
+#form-email{
+    background-color: white;
+    width:300px;
+    margin: 0 auto;
+    border:red
+
+}
+form{
+    color:white;
+    background-color: black;
+}
+
+#button-newsletter{
+    background-color: white;
+    color:black;
+    border:black;
+    margin: 0 auto;
+}
+
+/*PRESENTATION*/
+
+#kyokushinkai-img{
+    max-width: 60px;
+}
+
+/* EDUCATION */
+
+#education .heading h2 {
+    color:#d82c2e;
+    margin: 15px 0px;
+    }
+
+.education-block {
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #e9ecef;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.education-block h5{
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.education-block span{
+    font-size: 35px;
+}
+
+
+.education-block h3{
+    color:#d82c2e;
+    margin: 15px 0px;
+}
+
+.education-block h4 {
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+
+/*TARIF*/
+#tarif{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#cours{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+/*BOUTIQUE*/
+#boutique{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+/*CONTACT*/
+
+
+#map{
+    width: 500px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#contact p{
+    margin-bottom: 0px;
+}
+
+/*FOOTER*/
+
+footer{
+    height:300px;  
+}
+
+#fleche{
+    color:white;
+    font-size: 25px;
+    line-height: 35px;;
+}
+
+#icone-facebook{
+    width:79px;
+}
+
+#icone{
+    width:92px;
+    border:10px 1 solid black;
+}
+
+#mentions-legal{
+    text-decoration: none;
+    color:white;
+}

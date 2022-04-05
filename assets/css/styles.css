@@ -6,7 +6,6 @@
     padding:0;
 }
 
-
 @font-face {
     font-family: "Karate";
     src: url("/assets/fonts/Karate.ttf");
@@ -21,12 +20,12 @@
 .background-color-red{
     background-color:#E30016;
 
-    height:780px;  
+    height:100vh;  
 }
 
 .background-color-white{
     background-color:white;
-    height:780px;  
+    height:100vh;  
 }
 
 .background-color-footer{
@@ -47,6 +46,9 @@ h1{
     text-align: center;
 }
 
+h2{
+    padding-bottom: 20px;
+}
 
 .divider{
     width:100px;
@@ -61,7 +63,7 @@ h1{
 }
 /* NAVBAR */
 .navbar {
-    background-color:#d82c2e;
+    background-color:white;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: bold;
@@ -74,14 +76,14 @@ h1{
 }
 
 .nav-link {
-    color:white !important;
+    color:black !important;
     margin: 0 6px;
 }
 
 .nav-link.active,
 .nav-link:hover{
-    background-color: white;
-    color:#d82c2e !important;
+    background-color: black;
+    color:white !important;
 }
 
 /*HEADER*/
@@ -108,6 +110,7 @@ h1{
 h1{
     font-family: "Karate", serif, sans-serif;
     color:#E30016;
+    margin-bottom: 50px;
    /* margin-top: 20px;
     text-align: left;
 */
@@ -150,45 +153,17 @@ margin: 0 auto;
     max-width: 40px;
 }
 
-/* EDUCATION */
-
-#education .heading h2 {
-    color:#d82c2e;
-    margin: 15px 0px;
-    }
-
-.education-block {
-    width:90%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 30px;
-    background: #e9ecef;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
+#photo-dojo{
+ 
 }
 
-.education-block h5{
-    color: #888;
-    font-size: 15px;
-    margin-bottom: 15px;
+/*COURS*/
+#cours{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
-
-.education-block span{
-    font-size: 35px;
-}
-
-
-.education-block h3{
-    color:#d82c2e;
-    margin: 15px 0px;
-}
-
-.education-block h4 {
-    margin-bottom: 20px;
-    font-weight: normal;
-}
-
 
 /*TARIF*/
 #tarif{
@@ -197,12 +172,7 @@ margin: 0 auto;
     justify-content: center;
     margin: auto;
 }
-#cours{
-    width: 1300px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
+
 
 /*BOUTIQUE*/
 #boutique{
@@ -215,10 +185,13 @@ margin: 0 auto;
 /*CONTACT*/
 
 
-#map{
-    width: 500px;
-    justify-content: center;
-    margin-bottom: 30px;
+
+ @media  (min-width: 200px) and (max-width: 765px)
+ {
+    #carte 
+    {
+        width: 300px;
+    }       
 }
 
 #contact p{
@@ -284,3 +257,4 @@ footer h2{
     color: #E30016;
     padding-left: 20px;
 }
+

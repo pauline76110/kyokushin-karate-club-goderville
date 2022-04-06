@@ -30,13 +30,14 @@
                </button>
                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
-                     <a class="nav-link active" aria-current="page" href="#about">Présentation du club</a>
+                     <a class="nav-link active" aria-current="page" href="#about">Accueil</a>
+                     <a class="nav-link" href="#presentation-club">Présentation du club</a>
                      <a class="nav-link" href="#actualites">Actualités</a>
-                     <a class="nav-link" href="#experience">Cours</a>
-                     <a class="nav-link" href="#education">Tarif</a>
-                     <a class="nav-link" href="#portfolio">Photos</a>
-                     <a class="nav-link" href="#recommendations">Boutique</a>
-                     <a class="nav-link" href="#recommendations">Contact</a>
+                     <a class="nav-link" href="#cours">Cours</a>
+                     <a class="nav-link" href="#horaire">Horaire</a>
+                     <a class="nav-link" href="#photos">Photos</a>
+                     <a class="nav-link" href="#boutique">Boutique</a>
+                     <a class="nav-link" href="#contact">Contact</a>
                      <a class="nav-link" href="#recommendations"><img src="assets/img/drapeau-langue.png" alt=""
                            width="30" height="24">
                      </a>
@@ -137,7 +138,7 @@
       <!--fin de la première row-->
    </section>
 <!--PRESENTATION ENTREPRISE-->
-   <section id="presentation-entreprise" class="container-fluid background-color-red">
+   <section id="presentation-club" class="container-fluid background-color-red">
       <div class="row m-0 p-0 border border-white">
          <div class="col">
             <h2 class="color-white">Il était une fois...</h2>
@@ -145,7 +146,7 @@
       </div>
       <div class="row text-center border border-white">
          <div class="col-col-sm-4 text">
-            <img id="photo-dojo" src="assets/img/presentation-dojo.jpg" class="d-block w-100" alt="...">
+            <img id="photo-dojo" src="assets/img/presentation-dojo.jpg" alt="...">
          </div>
       </div>
       <div class="row border border-warning">
@@ -175,7 +176,7 @@
       </div>
    </section>
    <!--COURS-->
-   <section class="container-fluid background-color-white">
+   <section id="cours" class="container-fluid background-color-white">
       <div class="row border border-danger justify-content-center m-0">
          <h2 class="color-red">
             Venez découvrir nos différents cours!
@@ -213,8 +214,8 @@
          </div>
       </div>
    </section>
-   <!--TARIFS-->
-   <section class="background-color-black container-fluid">
+   <!--HORAIRES-->
+   <section id="horaire" class="background-color-black container-fluid">
       <div class="row">
          <div class="col-lg-12 color-red">
             <h2 class="color-white">Quand on aime, on ne compte pas...</h2>
@@ -226,8 +227,8 @@
          </div>
       </div>
    </section>
-   <!--PHOTOS ET VIDEOS-->
-   <section class="background-color-red container-fluid">
+   <!--PHOTOS-->
+   <section id="photos" class="background-color-red container-fluid">
       <div class="row align-items-center text-center">
          <div class="col">
             <h2 class="color-white">
@@ -272,16 +273,16 @@
       </div>
    </section>
    <!--BOUTIQUE-->
-   <section class="background-color-white container-fluid">
+   <section id="boutique" class="background-color-white container-fluid">
       <div class="row">
          <div class="col-lg-12 color-red">
             <h2 class="color-red">Boutique</h2>
          </div>
       </div>
-      <div class="row">
-         <div class="col-lg-12">
-            <img class="img-fluid" id="boutique" src="assets/img/karate-boy.png" alt="...">
-            <button type="button" class="btn btn-secondary">Secondary</button>
+      <div class="row text-center align-items-center">
+         <div class="col-lg-12  border-warning">
+            <img class="img-fluid" id="boutique-img" src="assets/img/karate-boy.png" alt="...">
+            <button type="button" class="btn btn-danger">Accéder à notre boutique</button>
          </div>
       </div>
       </div>
@@ -302,7 +303,7 @@
          <div class="col-lg-12  ">
             <!-- <img id="map" class="img-fluid" src="assets/img/map.png"  alt="..."> -->
 
-            <div class="gmap_canvas" style="position: relative;"><iframe width="600" height="500"
+            <div class="gmap_canvas" style="position: relative;"><iframe 
                   src="https://maps.google.com/maps?q=38%20Rue%20du%20Hameau%20Martin,%2076110%20GODERVILLE&t=&z=13&ie=UTF8&iwloc=&output=embed"
                   frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="carte"></iframe>
             </div>

@@ -13,19 +13,14 @@
 
 .background-color-black{
     background-color: black;
-
-    height:780px;
 }
 
 .background-color-red{
     background-color:#E30016;
-
-    height:100vh;  
 }
 
 .background-color-white{
     background-color:white;
-    height:100vh;  
 }
 
 .background-color-footer{
@@ -118,8 +113,8 @@ h1{
 }
 
 #video{
-   display: flex;
    justify-content: center;
+   width: 100%;
 }
 
 .myNavPad {
@@ -154,16 +149,11 @@ margin: 0 auto;
 }
 
 #photo-dojo{
- 
+ width:70%;
 }
 
 /*COURS*/
-#cours{
-    width: 1300px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
+
 
 /*TARIF*/
 #tarif{
@@ -175,7 +165,7 @@ margin: 0 auto;
 
 
 /*BOUTIQUE*/
-#boutique{
+#boutique-img{
     width: 500px;
     display: flex;
     justify-content: center;
@@ -238,7 +228,7 @@ footer h2{
 }
 
 #fleche{
-    color:white;
+    color:black;
     font-size: 25px;
     line-height: 35px;;
 }
